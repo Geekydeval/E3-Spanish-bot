@@ -1,0 +1,15 @@
+{
+  "name": "egcb",
+  "version": "0.0.1",
+  "description": "E3 bot 2018",
+  "author": "morwull",
+  "license": "ISC",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+   },
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "profanities": "^2.6.0"
+  }
+}
