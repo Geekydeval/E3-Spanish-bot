@@ -87,11 +87,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "¿Donde lo puedo ver?",
-        value: "[stream Twitch](https://www.twitch.tv/ea)\n[stream YT](https://www.youtube.com/channel/UCIHBybdoneVVpaQK7xMz1ww)"
+        value: "[stream Twitch](https://www.twitch.tv/ea)\n[stream YT](https://gaming.youtube.com/e3)"
       },
       {
         name: "¿Cuándo tengo que estar aquí?",
-        value: "9 de Junio a las 20:00pm Y [si no eres de España mira aquí](https://www.worldtimebuddy.com)"
+        value: "9 de Junio a las 20:00pm Y [si no eres de España mira aquí](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "¿Que esperar de esta conferencia?",
@@ -123,11 +123,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "¿Donde lo puedo ver?",
-        value: "[stream Twitch](https://www.twitch.tv/xbox)\n[stream YT](https://www.youtube.com/user/xbox)"
+        value: "[stream Twitch](https://www.twitch.tv/xbox)\n[stream YT](https://gaming.youtube.com/e3)"
       },
       {
         name: "¿Cuándo tengo que estar aquí?",
-        value: "**10 de Junio a las 22:00pm** Y [si no eres de España mira aquí](https://www.worldtimebuddy.com)"
+        value: "**10 de Junio a las 22:00pm** Y [si no eres de España mira aquí](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "¿Que esperar de esta conferencia?",
@@ -159,15 +159,48 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "¿Donde lo puedo ver?",
-        value: "[stream Twitch](https://www.twitch.tv/bethesda)\n[stream YT](https://www.youtube.com/user/BethesdaSoftworks)"
+        value: "[stream Twitch](https://www.twitch.tv/bethesda)\n[stream YT](https://gaming.youtube.com/e3)"
       },
       {
         name: "¿Cuándo tengo que estar aquí?",
-        value: "11 de Junio a las 3:30am Y [si no eres de España mira aquí](https://www.worldtimebuddy.com)"
+        value: "11 de Junio a las 3:30am Y [si no eres de España mira aquí](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "¿Que esperar de esta conferencia?",
         value: "Expansión de Prey\nDoom 2?\nStarfiel | nueva IP?\nTES Online | card game\n..."
+      }
+    ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "El señor E3"
+    }
+  }})
+}
+});
+
+client.on("message", (message) => {
+  if (!message.content.startsWith(prefix)) return;
+
+  if (message.content.startsWith(prefix + "devolver")) {
+    message.author.send({embed:{
+        color: 16747008,
+        author: {
+          name: client.user.username,
+          icon_url: client.user.avatarURL
+                },
+      title: "Conferencia de Devolver Digital",
+      fields: [{
+        name: "¿Donde lo puedo ver?",
+        value: "[stream Twitch](https://www.twitch.tv/devolverdigital)\n[stream YT](https://gaming.youtube.com/e3)"
+      },
+      {
+        name: "¿Cuándo tengo que estar aquí?",
+        value: "11 de Junio a las 5:00am Y [si no eres de España mira aquí](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
+      },
+      {
+        name: "¿Que esperar de esta conferencia?",
+        value: "locuras y mas como la del año pasado"
       }
     ],
     timestamp: new Date(),
@@ -192,11 +225,11 @@ client.on("message", (message) => {
       title: "Conferencia de PC Gaming Show",
       fields: [{
         name: "¿Donde lo puedo ver?",
-        value: "[stream Twitch](https://www.twitch.tv/pcgamer)\n[stream YT](https://www.youtube.com/user/E3)"
+        value: "[stream Twitch](https://www.twitch.tv/pcgamer)\n[stream YT](https://gaming.youtube.com/e3)"
       },
       {
         name: "¿Cuándo tengo que estar aquí?",
-        value: "11 de Junio a las 00:00pm Y [si no eres de España mira aquí](https://www.worldtimebuddy.com)"
+        value: "11 de Junio a las 00:00pm Y [si no eres de España mira aquí](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "¿Que esperar de esta conferencia?",
@@ -228,11 +261,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "¿Donde lo puedo ver?",
-        value: "Enlace 1: [stream Twitch](https://www.twitch.tv/ubisoft)\nEnlace 2: [stream YT](https://www.youtube.com/channel/UCBMvc6jvuTxH6TNo9ThpYjg)"
+        value: "Enlace 1: [stream Twitch](https://www.twitch.tv/ubisoft)\nEnlace 2: [stream YT](https://gaming.youtube.com/e3)"
       },
       {
         name: "¿Cuándo tengo que estar aquí?",
-        value: "11 de Junio a las 22:00pm Y [si no eres de España mira aquí](https://www.worldtimebuddy.com)"
+        value: "11 de Junio a las 22:00pm Y [si no eres de España mira aquí](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "¿Que esperar de esta conferencia?",
@@ -264,11 +297,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "¿Donde lo puedo ver?",
-        value: "Enlace 1: [stream Twitch](https://www.twitch.tv/playstation)\nEnlace 2: [stream YT](https://www.youtube.com/user/E3)"
+        value: "Enlace 1: [stream Twitch](https://www.twitch.tv/playstation)\nEnlace 2: [stream YT](https://gaming.youtube.com/e3)"
       },
       {
         name: "¿Cuándo tengo que estar aquí?",
-        value: "12 de Junio a las 03:00am Y [si no eres de España mira aquí](https://www.worldtimebuddy.com)"
+        value: "12 de Junio a las 03:00am Y [si no eres de España mira aquí](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "¿Que esperar de esta conferencia?",
@@ -300,11 +333,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "¿Donde lo puedo ver?",
-        value: "Enlace 1: [stream Twitch](https://www.twitch.tv/nintendo)\nEnlace 2: [stream YT](https://www.youtube.com/user/Nintendo)"
+        value: "Enlace 1: [stream Twitch](https://www.twitch.tv/nintendo)\nEnlace 2: [stream YT](https://gaming.youtube.com/e3)"
       },
       {
         name: "¿Cuándo tengo que estar aquí?",
-        value: "12 de Junio a las 18:00pm Y [si no eres de España mira aquí](https://www.worldtimebuddy.com)"
+        value: "12 de Junio a las 18:00pm Y [si no eres de España mira aquí](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "¿Que esperar de esta conferencia?",
@@ -336,11 +369,11 @@ client.on("message", (message) => {
       },
       fields: [{
         name: "¿Donde lo puedo ver?",
-        value: "Enlace 1: [stream Twitch](https://www.twitch.tv/squareenix)\nEnlace 2: [stream YT](https://www.youtube.com/squareenixpresents)"
+        value: "Enlace 1: [stream Twitch](https://www.twitch.tv/squareenix)\nEnlace 2: [stream YT](https://gaming.youtube.com/e3)"
       },
       {
         name: "¿Cuándo tengo que estar aquí?",
-        value: "12 de Junio a las 19:00pm Y [si no eres de España mira aquí](https://www.worldtimebuddy.com)"
+        value: "12 de Junio a las 19:00pm Y [si no eres de España mira aquí](https://pbs.twimg.com/media/DenUKCfU8AAsh9q.jpg)"
       },
       {
         name: "¿Que esperar de esta conferencia?",
