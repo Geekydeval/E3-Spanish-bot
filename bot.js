@@ -57,7 +57,7 @@ client.on("message", (message) => {
       title: "Hola, soy el bot oficial del server E3",
       fields: [{
         name: "Comandos para las conferencias (fechas, horas y enlaces)",
-        value:"Te mandaré toda la información por MP cuando introduzcas estos comandos :thumbsup:\n**E3!EA** - Conferencia de EA\n**E3!microsoft** - Conferencia de Microsoft\n**E3!bethesda** - Conferencia de Bethesda\n**E3!pc** - Conferencia de PC\n**E3!ubisoft** - Conferencia de Ubisoft\n**E3!sony** - Conferencia de Sony\n**E3!nintendo** - Conferencia de Nintendo\n**E3!square** - conferencia de SE"
+        value:"Te mandaré toda la información por MP cuando introduzcas estos comandos :thumbsup:\n**E3!EA** - Conferencia de EA\n**E3!microsoft** - Conferencia de Microsoft\n**E3!devolver** - Conferencia de Devolver Digital\n**E3!bethesda** - Conferencia de Bethesda\n**E3!pc** - Conferencia de PC\n**E3!ubisoft** - Conferencia de Ubisoft\n**E3!sony** - Conferencia de Sony\n**E3!nintendo** - Conferencia de Nintendo\n**E3!square** - conferencia de SE"
       },
     ],
     timestamp: new Date(),
